@@ -1,0 +1,47 @@
+--------------- CUSTOMER RELATIONSHIP MANAGEMENT (CRM) ---------------
+
+--> Benefits of CRM :-
+	1.Customer Data Management
+	2.Customer Service & Support
+	3.Leads Data Management
+	4.Products Data Management
+	5.Sales Management
+	etc..
+
+-->Project Requirements & Documentation :-
+	= Modules :-
+	  1.Admin
+		-Login, Update profile details
+		-Register Employee
+		-Create Courses
+		-Check Sales
+		-Check Customers
+		 etc..
+	  2.Employee
+		-Login, Update profile details
+		-Handle Customer enqueries
+		-Follow ups
+		-Feedback
+		-Coupon Code
+		 etc.
+	  3.Customer
+		-Register & Login
+		-Update Profile
+		-Check Products
+		-Purchase products
+		-Feedback
+		-Complaints
+		 etc..
+	= Database Details
+	  1.register
+		-name, email, password, phoneNo, module
+	  2.customer_register
+		-name, email, password, gender, phoneNo, city
+	  3.customer_enqueries
+		-phoneNo, name, interested_courses, discussion, enquiry_date, enquiry_time, status_code, employee_email
+	  4.status_codes
+		-status_code,status
+	  5.follow_ups
+		-phone_No, next_follow_up_date
+	= Layout :-
+	  	Login, register, AdminPanel, EmpPanel etc.
